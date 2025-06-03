@@ -1,0 +1,25 @@
+{
+  "name": "scrap_email",
+  "version": "1.0.0",
+  "description": "Back end, onde irei fazer um scrap e enviar via email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandaowalison/scrap-email.git"
+  },
+  "author": "Walison Brandão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandaowalison/scrap-email/issues"
+  },
+  "homepage": "https://github.com/brandaowalison/scrap-email#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "nodemailer": "^7.0.3"
+  }
+}
